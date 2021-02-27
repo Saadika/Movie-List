@@ -1,0 +1,56 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.movieList_page {
+    background-color: #000;
+    padding: 2rem;
+
+    .header {
+        display: flex;
+
+        input {
+            background-color: #000;
+            color: #fff;
+        }
+    
+        input::placeholder,
+        .col-md-3 {
+            color: #fff;
+        }
+
+        button {
+            height: 36px;
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-left: 1rem;
+            background-color: #000;
+            border-color: #fff;
+        }
+
+    }
+
+    .mb-3 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .movie_list {
+        .card {
+            margin: 1rem;
+
+            .card-img-top {
+                height: 400px;
+            }
+
+            .card-body {
+                h5 {
+                    height: 48px;
+                }
+            }
+        }
+    }
+
+    .spinner-border {
+        color: white;
+        margin: 2rem;
+    }
+}

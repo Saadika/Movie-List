@@ -1,0 +1,25 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.main-container {
+    .landing_page {
+        background-image: url(../assets/images/main-background-image.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+
+            button {
+                background-color: #000;
+                border-color: #fff;
+            }
+        }
+    }
+}

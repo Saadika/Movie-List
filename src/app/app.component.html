@@ -1,0 +1,11 @@
+<div class="main-container">
+  <div class="landing_page" *ngIf="!showContent">
+    <div class="overlay col-md-5">
+      <h3>Welcome to movie reviews</h3>
+      <button class="btn btn-primary" (click)="movieList()">View movies</button>
+    </div>
+  </div>
+  
+  
+  <router-outlet *ngIf="showContent"></router-outlet>
+</div>
